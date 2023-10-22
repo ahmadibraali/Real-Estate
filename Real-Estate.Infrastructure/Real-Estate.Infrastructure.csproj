@@ -7,4 +7,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.2.0" />
+    <PackageReference Include="MimeKit" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Real-Estate.Application\Real-Estate.Application.csproj" />
+    <ProjectReference Include="..\Real-Estate.Context\Real-Estate.Context.csproj" />
+    <ProjectReference Include="..\Real-Estate.Domain\Real-Estate.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

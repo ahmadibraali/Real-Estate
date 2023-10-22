@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Real-Estate.Infrastructure"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Real-Estate.Context", "Real-Estate.Context\Real-Estate.Context.csproj", "{905434B2-BAB8-47AA-8385-66094932F917}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Real-Estate.DTOs", "Real-Estate.DTOs\Real-Estate.DTOs.csproj", "{90F4E9F0-6BD8-45F5-A4C2-C288DC1143D2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Real-Estate.Identity", "Real-Estate.Identity\Real-Estate.Identity.csproj", "{92465BE7-0AFD-4A85-9C0B-816DF535B1F3}"
 EndProject
 Global
@@ -43,10 +41,6 @@ Global
 		{905434B2-BAB8-47AA-8385-66094932F917}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{905434B2-BAB8-47AA-8385-66094932F917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{905434B2-BAB8-47AA-8385-66094932F917}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90F4E9F0-6BD8-45F5-A4C2-C288DC1143D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90F4E9F0-6BD8-45F5-A4C2-C288DC1143D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90F4E9F0-6BD8-45F5-A4C2-C288DC1143D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90F4E9F0-6BD8-45F5-A4C2-C288DC1143D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{92465BE7-0AFD-4A85-9C0B-816DF535B1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{92465BE7-0AFD-4A85-9C0B-816DF535B1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92465BE7-0AFD-4A85-9C0B-816DF535B1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
