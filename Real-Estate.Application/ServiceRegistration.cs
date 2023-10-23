@@ -11,7 +11,7 @@ namespace Real_Estate.Application
         public static void AddApplicationLayer(this IServiceCollection services)
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
-            services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddMediatR(cfg=>cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
 
             #region Services
             services.AddTransient(typeof(IGenericService<,,>), typeof(GenericService<,,>));

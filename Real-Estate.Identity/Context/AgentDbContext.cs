@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Real_Estate.Identity.Entities;
+using System.Reflection.Emit;
 
 namespace Real_Estate.Identity.Context
 {
@@ -12,7 +13,7 @@ namespace Real_Estate.Identity.Context
         protected override void OnModelCreating(ModelBuilder builder)
         {
 
-            base.OnModelCreating(builder);
+            
             builder.HasDefaultSchema("Identity");
 
             builder.Entity<ApplicationUser>(entity =>
@@ -34,6 +35,7 @@ namespace Real_Estate.Identity.Context
             {
                 entity.ToTable(name: "UserLogins");
             });
+            base.OnModelCreating(builder);
         }
     }
 }

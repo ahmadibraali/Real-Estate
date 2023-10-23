@@ -12,7 +12,7 @@ namespace Real_Estate.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [SwaggerTag("Servicios de cuentas")]
+    [SwaggerTag("Account services")]
     public class AccountController : BaseApiController
     {
         private readonly IAccountService _accountService;
@@ -24,8 +24,8 @@ namespace Real_Estate.API.Controllers
 
         [HttpPost("Authenticate")]
         [SwaggerOperation(
-           Summary = "Login de usuario",
-           Description = "Obtiene todas la propiedades."
+           Summary = "User login",
+           Description = "Get all properties."
         )]
         public async Task<IActionResult> AuthenticateAsync(AuthenticationRequest request)
         {
@@ -41,8 +41,8 @@ namespace Real_Estate.API.Controllers
 
         [HttpPost("RegisterAdminUser")]
         [SwaggerOperation(
-           Summary = "Creacion de usuario con rol administrador",
-           Description = "Recibe los parametros necesarios para crear un usuario con el rol administrador."
+           Summary = "Creation of user with administrator role",
+           Description = "Receive the necessary parameters to create a user with the administrator role."
         )]
         public async Task<IActionResult> RegisterAdminAsync(RegisterAdminUserCommand command)
         {
@@ -58,8 +58,8 @@ namespace Real_Estate.API.Controllers
 
         [HttpPost("RegisterDeveloperUser")]
         [SwaggerOperation(
-           Summary = "Creacion de usuario con rol desarrollador",
-           Description = "Recibe los parametros necesarios para crear un usuario con el rol desarrollador."
+           Summary = "Creation of user with developer role",
+           Description = "Receive the necessary parameters to create a user with the developer role."
         )]
         public async Task<IActionResult> RegisterDeveloperAsync(RegisterDeveloperUserCommand command)
         {

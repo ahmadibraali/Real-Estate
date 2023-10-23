@@ -10,12 +10,12 @@ namespace Real_Estate.Identity.Seeds
         public static async Task SeedAsync(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             ApplicationUser defaultUser = new();
-            defaultUser.FirstName = "Frank";
-            defaultUser.LastName = "Castle";
-            defaultUser.UserName = "Punisher";
-            defaultUser.Email = "punisher@agentuser.com";
+            defaultUser.FirstName = "agent";
+            defaultUser.LastName = "agent";
+            defaultUser.UserName = "agent";
+            defaultUser.Email = "agent@test.com";
             defaultUser.EmailConfirmed = true;
-            defaultUser.PhoneNumber = "809-236-9698";
+            defaultUser.PhoneNumber = "123-456-7894";
             defaultUser.PhoneNumberConfirmed = true;
 
             if (userManager.Users.All(u => u.Id != defaultUser.Id))

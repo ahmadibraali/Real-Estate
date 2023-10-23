@@ -20,15 +20,15 @@ namespace Real_Estate.API.Extensions
                     Description = "This Api will be responsible for overall data distribution",
                     Contact = new OpenApiContact
                     {
-                        Name = "Grupo #5",
-                        Email = "e.zaizortega@gmail.com",
-                        Url = new Uri("https://czaiz.com")
+                        Name = "Ahmad Ibrahim",
+                        Email = "ahmadibraali@gmail.com",
+                        Url = new Uri("http://github.com/ahmadibraali")
                     }
                 });
                 
-                string xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                options.IncludeXmlComments(xmlPath);
+               // string xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                //string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                //options.IncludeXmlComments(xmlPath);
 
                 options.EnableAnnotations();
                 options.DescribeAllParametersInCamelCase();

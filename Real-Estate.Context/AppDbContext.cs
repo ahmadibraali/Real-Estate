@@ -91,7 +91,7 @@ namespace Real_Estate.Context
             #endregion
 
             #endregion
-           // base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(modelBuilder);
         }
 
 

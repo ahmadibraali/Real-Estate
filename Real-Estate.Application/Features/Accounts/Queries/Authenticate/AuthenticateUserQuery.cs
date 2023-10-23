@@ -2,12 +2,7 @@
 using MediatR;
 using Real_Estate.Application.DTOs.Account;
 using Real_Estate.Application.Interfaces.Services;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Real_Estate.Application.Features.Accounts.Queries.Authenticate
 {
@@ -37,7 +32,7 @@ namespace Real_Estate.Application.Features.Accounts.Queries.Authenticate
             {
                 foreach (var rol in response.Roles)
                 {
-                    if (rol == "Agent" || rol == "Client") throw new Exception("No tiene permiso para usar el web api.");
+                    if (rol == "Agent" || rol == "Client") throw new Exception("You do not have permission to use the web api.");
                 }
             }
             return response;
