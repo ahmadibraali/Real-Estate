@@ -8,7 +8,7 @@ namespace Real_Estate.Infrastructure
 {
     public static class ServiceRegistration
     {
-        public static void AddSharedInfrastructure(this IServiceCollection services, IConfiguration config)
+        public static void AddInfrastructure(this IServiceCollection services, IConfiguration config)
         {
             services.Configure<MailSettings>(config.GetSection("MailSettings"));
             services.AddTransient<IEmailService, EmailService>();

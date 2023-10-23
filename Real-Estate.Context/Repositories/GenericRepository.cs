@@ -2,7 +2,7 @@
 using Real_Estate.Application.Interfaces.Repositories;
 using Real_Estate.Context;
 
-namespace Real_Estate.Infrastructure.Repository
+namespace Real_Estate.Context.Repositories
 {
     //Generics
     public class GenericRepository<Entity> : IGenericRepository<Entity> where Entity : class

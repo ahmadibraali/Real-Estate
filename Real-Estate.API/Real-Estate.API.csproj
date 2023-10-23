@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Real-Estate.Context\Real-Estate.Context.csproj" />
     <ProjectReference Include="..\Real-Estate.Identity\Real-Estate.Identity.csproj" />
+    <ProjectReference Include="..\Real-Estate.Infrastructure\Real-Estate.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
