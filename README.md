@@ -24,7 +24,7 @@ Welcome to the Real Estate repository! This project aims to provide a comprehens
 5. Manage your own property listings and agent profile if you have the appropriate permissions.
 
 ## Contributing
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. Make sure to follow the [Contributing Guidelines](CONTRIBUTING.md) for a smooth collaboration process.
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. 
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
