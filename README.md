@@ -1,4 +1,4 @@
-# Real Estate Management System Wep API .
+# Real Estate Management System Web API .
 
 ## Overview
 Welcome to Real Estate repository! This project aims to  manage different roles each with different functionalities and interactions in the system, with an integrated restful API to consume all the functionalities. It is developed under the ONION architecture in C# ASP .Net Core following the SOLID principles.
