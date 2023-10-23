@@ -1,14 +1,35 @@
 # Real Estate Management System Wep API .
 
 ## Overview
-Welcome to the Real Estate repository! This project aims to provide a comprehensive solution for managing real estate properties, including listings, agents, and customer interactions. Whether you're a real estate agency or an individual looking to buy or sell properties, this application has got you covered.
+Welcome to Real Estate repository! This project aims to  manage different roles each with different functionalities and interactions in the system, with an integrated restful API to consume all the functionalities. It is developed under the ONION architecture in C# ASP .Net Core following the SOLID principles.
 
 ## Features
-- Property listing management: Add, update, and remove property listings with detailed information such as location, price, and amenities.
-- Agent profiles: Create and manage agent profiles, including contact information and areas of expertise.
-- Customer interactions: Keep track of customer inquiries, appointments, and offers.
-- Search and filter: Easily search and filter properties based on location, price range, and property type.
-  
+Real Estate Web API Services
+===========================
+├Acount
+└=> 
+![image](https://github.com/ahmadibraali/Real-Estate/assets/26085108/744d0d24-2cd3-4078-aee5-7e44667270ea)
+
+├Agents
+└=> 
+![image](https://github.com/ahmadibraali/Real-Estate/assets/26085108/993ad2c0-9662-42c8-a533-662833491c48)
+
+├Imporovments
+└=> 
+![image](https://github.com/ahmadibraali/Real-Estate/assets/26085108/d9f81afd-8151-491b-9d13-ac44d2cf6b59)
+
+├Properties
+└=>
+![image](https://github.com/ahmadibraali/Real-Estate/assets/26085108/82ba6cce-7029-495f-adf3-51445e228d52)
+
+├Type Of Properties
+└=>
+![image](https://github.com/ahmadibraali/Real-Estate/assets/26085108/a7e9847e-1dfb-477d-8965-964696a3c054)
+
+├Type Of Sales
+└=>
+  ![image](https://github.com/ahmadibraali/Real-Estate/assets/26085108/ab461c07-14ff-4a94-97f7-f8ef69665d3e)
+
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/ahmadibraali/Real-Estate.git`
