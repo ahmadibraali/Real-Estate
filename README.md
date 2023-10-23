@@ -12,9 +12,8 @@ Welcome to the Real Estate repository! This project aims to provide a comprehens
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/ahmadibraali/Real-Estate.git`
-2. Install the necessary dependencies: `npm install`
-3. Set up the database and configure the connection in `config.js`.
-4. Start the application: `npm start`
+2. Set up the database and configure the connection in `appsettings.json`.
+
 
 ## Usage
 1. Access the application through your preferred web browser.
